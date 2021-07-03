@@ -1,0 +1,349 @@
+.header .nav{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 10px 250px;
+    background: black;
+}
+.header img{
+    height: 30px;
+    width: 70px;
+}
+.link_list a{
+  margin-left: 20px;
+  color: white;
+  font-size: 12px;
+}
+.first {
+background: url(https://cdnprs.wisconsin.dev/wp-content/uploads/2016/01/Best-Luxury-Hotels-for-Adventure.jpg);
+background-size: cover;
+height: 378px;
+
+}
+.first .j p{
+  padding-top: 90px;
+  padding-left: 430px;
+}
+.first .j h1{
+  padding-left: 400px;
+  padding-top: 30px;
+}
+.first .j button{
+  align-items: center;
+  margin-left: 450px;
+    background-color: Transparent;
+    border-color: black;
+    margin-top: 30px;
+}
+
+.second .cardList{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+    margin-left: 90px;
+}
+.second h2{
+  font-size: 30px;
+  margin-top: 20px;
+}
+.second p{
+  font-size: 15px;
+  margin-top: 20px;
+}
+.second{
+  padding: 70px 60px;
+}
+.second button{
+  background: #BB9B70;
+  margin-top: 20px;
+}
+.iml img{
+  height: 250px;
+  width: 350px;
+  box-shadow: 0 0 30px 1px rgba(40, 40, 40, 0.5);
+  border-radius: 40px;
+}
+.second img{
+  height: 300px;
+
+}
+.third .cardList img{
+  height: 130px;
+  width: 170px;
+  border-radius: 30px;
+    box-shadow: 0 0 30px 1px rgba(40, 40, 40, 0);
+}
+.third .cardList img:hover{
+    box-shadow: 0 0 30px 1px rgba(40, 40, 40, 0.5);
+    transition-duration: 0.3s;
+}
+.third {
+display: grid;
+grid-template-columns: 1fr auto;
+align-items: center;
+  background: #F7F7F5;
+  padding-bottom: 70px;
+}
+.third .cardList{
+display: grid;
+  grid-template-columns: 1fr 1fr;
+margin-right: 70px;
+}
+.third .cardList .card{
+    margin-top: 10px;
+      margin-left: 10px;
+}
+.iml{
+  margin-left: 80px;
+  margin-top: 60px;
+  background: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.iml button{
+  background: black;
+  color: white;
+  margin-top: 15px;
+  font-size: 12px;
+}
+.iml h2{
+  margin-top: 10px;
+  font-size: 22px;
+
+}
+.iml p{
+  margin-top: 15px;
+margin-left: 70px;
+margin-right: 50px;
+}
+.fly .cardList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: white;
+text-align: center;
+margin: 50px 350px;
+padding: 10px 5px;
+}
+.fly .cardList h2{
+  margin-top: 10px;
+  font-size: 25px;
+}
+.fly .cardList p{
+  font-size: 8px;
+}
+.kil button{
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  padding: 20px 0px;
+}
+.fly .cardList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+}
+.dis .cardList{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.dis .cardList img{
+  width: 100%;
+}
+.lok .k{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.lok{
+  background: black;
+  color: white;
+padding: 50px 80px;
+padding-right: 150px;
+}
+.lok p{
+  font-size: 10px;
+
+  margin-top: 10px;
+}
+.lok h2{
+font-size: 20px;
+
+  margin-top: 10px;
+}
+.lib{
+  padding: 50px 350px;
+  text-align: center;
+}
+.spa .cardList{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: white;
+}
+.spa .card img{
+  height: 250px;
+  width: 350px;
+}
+.spa{
+  padding: 100px 150px;
+  background: #DCDCDC;
+}
+.spa .card p{
+  font-size: 15px;
+  text-align: center;
+  margin-top: 30px;
+}
+.spa .card h2{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+.spa .card button{
+  background: Transparent;
+  font-size: 10px;
+  text-align: center;
+  margin-left: 140px;
+  color: #F4A460;
+  margin-top: 25px;
+  border-color: #F4A460;
+}
+.dis{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.p img{
+  width: 100%;
+}
+.kak{
+  background: #FFFAF0;
+  padding: 100px 200px;
+}
+.kak .cardList{
+  width: 33%;
+  background: red;
+}
+.kak .card1 img{
+width: 200px;
+height: 170px;
+}
+.kak .card1{
+  background: white;
+  width: 200px;
+}
+.kak .card1 p{
+  margin-top: 20px;
+  font-size: 13px;
+}
+.kak .card1 h2{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.kak .card1 button{
+  background: Transparent;
+  font-size: 10px;
+
+  color: #F4A460;
+  margin-top: 20px;
+  border-color: #F4A460;
+}
+.kak .card4{
+  background: black;
+  color: white;
+  height: 120px;
+  width: 200px;
+}
+.kak .card5{
+  background:white;
+  width: 230px;
+}
+.kak .card4 h2{
+  margin-top: 50px;
+  text-align: center;
+}
+.kak .card5 img{
+  width: 230px;
+  height: 120px;
+}
+.kak .card5 p{
+  margin-top: 20px;
+  font-size: 13px;
+}
+.kak .card5 h2{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.kak .card5 button{
+  background: Transparent;
+  font-size: 10px;
+
+  color: #F4A460;
+  margin-top: 20px;
+  border-color: #F4A460;
+}
+.kak .card3 img{
+  height: 240px;
+  width: 200px;
+}
+.kak .card6 img{
+  width: 200px;
+  height:
+}
+.kak .card2{
+  background: #DEB887;
+  height: 120px;
+  width: 230px;
+}
+.kak .card2 h2{
+  margin-top: 30px;
+  text-align: center;
+
+}
+.kak .card2 p{
+  margin-top: 30px;
+text-align: center;
+}
+.end .cardList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+align-items: center;
+}
+.end img{
+  width: 80px;
+
+}
+.end .card{
+  text-align: center;
+}
+.end{
+  background: rgb(28, 28, 28);
+  color: WHITE;
+  padding: 30px 50px;
+}
+.end h2{
+  font-size: 15px;
+  text-align: center;
+}
+.end p{
+  font-size: 10px;
+  text-align: center;
+}
+.end i{
+  text-align: center;
+}
+.fin img{
+
+  height: 100%;
+}
+.fin{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  background: black;
+  color: white;
+  align-items: center;
+  padding: 0px 100px;
+}
+.fin .endm *{
+  display: inline-block;
+  margin: 10px;
+}
+.kak .card5{
+  height: 320px;
+}
